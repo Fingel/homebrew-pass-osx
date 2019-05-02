@@ -14,3 +14,17 @@ fixes that.
 
 There [have been some patches](https://lists.zx2c4.com/pipermail/password-store/2018-October/003447.html) submitted to the mailing list but after a few years it doesn't look like they are going
 to be merged. Thus this fork.
+
+## To use
+Uninstall pass if you already have it installed via brew:
+
+    brew uninstall pass
+  
+Then "tap" the repo:
+
+    brew tap Fingel/pass-osx
+  
+Finally, install the formula:
+
+    brew install fingel/pass-osx/pass
+  
