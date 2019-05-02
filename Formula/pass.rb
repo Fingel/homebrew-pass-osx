@@ -1,9 +1,9 @@
 class Pass < Formula
   desc "Password manager"
   homepage "https://www.passwordstore.org/"
-  url "https://github.com/Fingel/password-store/archive/master.zip"
-  sha256 "f9bbe0377a3228fadba98abfbccbb665943a9fc09c6d0b80075287ca00f867c9"
-  head "https://github.com/Fingel/password-store", :using => :git
+  url "https://github.com/Fingel/password-store/archive/6e6f4f745b66f0d5a964dabc9965f609da61cb3d.zip"
+  sha256 "d4553b4d43b5d1d149908878dd27907092a03add26450b09430b3e1c35914e7e"
+  version "g6e6f4f745b"
 
   depends_on "gnu-getopt"
   depends_on "gnupg"
